@@ -30,4 +30,60 @@ class Search extends React.Component {
     }
 }
 }
+```  
+
+Comme vous pouvez le constater, la deuxième ligne *import* est grisée. Pourquoi ? Car nos components ne sont pas encore définis dans notre *render*. Dans notre *return*, entre parenthèses, il faut ajouter : 
+
+```javascript
+// Components/Search.js
+      <View>
+        <TextInput placeholder='Titre du jeu'/>
+        <Button title='Rechercher' onPress={() => {}}/>
+      </View>
 ```
+
+Une fois cela fait, il nous suffit de rajouter **export default Search** à la fin du fichier *Search.js*.  
+
+Prochaine étape, importer notre component dans notre fichier *App.js*. Mais si, vous savez, notre 'index.html', notre page princiaple de l'application.  
+
+```javascript
+// App.js
+import React from 'react'
+import Search from './Components/Search'
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <Search/>
+    )
+  }
+}
+```  
+
+Vous devriez avoir ceci comme rendu :  
+
+![image smartphones-search](../assets/img/smartphone-diff.png)  
+
+## JSX
+
+**JSX** est une extension du langage Javascript créée par Facebook. Il facilite la création de components avec une syntaxe très simple inspirée de **HTML** et **XML**. Par exemple, lorsque nous écrivons en JSX :  
+
+```javascript
+<View>
+    <TextInput placeholder="Titre du jeu"/>
+    <Button title="Rechercher" onPress={() => {}}/>
+</View>
+```  
+
+**JSX** le convertit pour React comme ceci :  
+
+```javascript
+React.createElement(View, {},
+  	React.createElement(TextInput, {placeholder: "Titre du jeu"}),
+    React.createElement(Button, {title: "Rechercher", onPress: () => {}})
+)
+```  
+
+![image what gif](../assets/gif/what.gif)
+
+<a href="./react-native-3.md">Un peu de style ?</a>
