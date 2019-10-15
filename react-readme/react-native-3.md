@@ -8,7 +8,7 @@ On attaque directement avec le *Search.js* dans lequel on va rajouter du style a
 render() {
     return (
         <View style={{ marginTop: 20 }}>
-            <TextInput style={{ marginLeft: 5, marginRight: 5, height: 50, borderColor: '#000000', borderWidth: 1, paddingLeft: 5 }} placeholder='Titre du film'/>
+            <TextInput style={{ marginLeft: 5, marginRight: 5, height: 50, borderColor: '#000000', borderWidth: 1, paddingLeft: 5 }} placeholder='Titre du jeu'/>
             <Button title='Rechercher' onPress={() => {}}/>
         </View>
     )
