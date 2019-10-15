@@ -1,6 +1,6 @@
 # React Native
 
-![logo React Native](assets/react-native.jpg)
+![logo React Native](assets/img/react-native.jpg)
 
 ### React Native c'est quoi ? 
 React Native est un framework d'applications mobiles open source créé par Facebook. Il est utilisé pour développer des applications pour Android, iOS et UWP (Universal Windows Platform) en permettant aux développeurs d’utiliser React avec les fonctionnalitées native de ces plateformes. 
@@ -14,18 +14,18 @@ Les principes de fonctionnement de React Native sont pratiquement identiques à 
 Grâce à ce Workshop nous allons réaliser une application permettant de rechercher des jeux-vidéos depuis une API.
 
 ## Pré-requis
-Avant d'installer React Native, nous aurons besoin de <a href="https://nodejs.org/en/download/" target= "_blank" rel= "noreferrer noopener">Node.js</a> 
+Avant d'installer React Native, nous aurons besoin de <a href="https://nodejs.org/en/download/">Node.js</a> 
 
 ## Visualisation
 Afin de voir le rendu en temps réel du projet, il existe différentes façons de faire. 
 
 ### Expo
-Expo est une application mobile permettant de voir, sur smartphone ou tablette, le rendu du code écrit. Vous pouvez retrouver l'application via <a href="https://apps.apple.com/us/app/expo-client/id982107779" target= "_blank" rel= "noreferrer noopener">l'App Store</a> ou via <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&hl=fr" target= "_blank" rel= "noreferrer noopener">Google Play</a>.
+Expo est une application mobile permettant de voir, sur smartphone ou tablette, le rendu du code écrit. Vous pouvez retrouver l'application via <a href="https://apps.apple.com/us/app/expo-client/id982107779">l'App Store</a> ou via <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&hl=fr">Google Play</a>.
 
 ### Via un émulateur
 Vous pouvez aussi installer un émulateur afin de développer votre application. 
 
-L'installation étant plus longue, nous vous invitons à suivre ce <a href="https://facebook.github.io/react-native/docs/getting-started" target= "_blank" rel= "noreferrer noopener">tuto</a> en cliquant sur "React Native CLI Quickstart" une fois sur la page. 
+L'installation étant plus longue, nous vous invitons à suivre ce <a href="https://facebook.github.io/react-native/docs/getting-started">tuto</a> en cliquant sur "React Native CLI Quickstart" une fois sur la page. 
 
 ***Pour notre workshop, nous allons utiliser une méthode différente et plus accessible***
 
@@ -55,15 +55,20 @@ $ expo init AppJeux
 ```
 
 Dans le terminal, vous devriez avoir un message vous demandant de choisir le template que vous allez utiliser.
-![image expo-init-blank](assets/expo-init-blank.png)
+![image expo-init-blank](assets/img/expo-init-blank.png)
 
 Appuyez sur 'Enter' une première fois et ensuite, on vous demande de réécrire le nom de l'App. Réécrivez le et appuyez à nouveau sur 'Enter'.
 
 Une fois les différentes librairies JavaScript installées, vous verrez apparaître ce message : 
-![image expo-init-blank](assets/project-ready.png)
+![image project-ready](assets/img/project-ready.png)
+
+Il suffit maintenant de changer de dossier via la commande 'cd' et lancer l'App avec 'npm start'
+
+Nous voilà prêt à coder notre App. Si tout le monde est encore OP, on se motive et on rentre dans le vif du sujet.
+<a href="https://gph.is/g/4LAoNRE"></a>
 
 
-
+<a href="react-readme/react-native-1.md">Ecrivons notre App</a>
 
 
 
