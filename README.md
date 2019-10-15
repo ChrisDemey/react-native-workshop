@@ -64,7 +64,7 @@ Une fois les différentes librairies JavaScript installées, vous verrez appara�
 
 ![image project-ready](assets/img/project-ready.png)
 
-Il suffit maintenant de changer de dossier via la commande 'cd' et lancer l'App avec 'npm start'
+Il suffit maintenant de changer de dossier via la commande '**cd**' et lancer l'App avec '**npm start**'
 
 Nous voilà prêt à coder notre App. Si tout le monde est encore OP, on se motive et on rentre dans le vif du sujet.
 
