@@ -65,10 +65,10 @@ Une fois les différentes librairies JavaScript installées, vous verrez appara�
 Il suffit maintenant de changer de dossier via la commande 'cd' et lancer l'App avec 'npm start'
 
 Nous voilà prêt à coder notre App. Si tout le monde est encore OP, on se motive et on rentre dans le vif du sujet.
-![image gif-omg](assets/gif/omg-scared.gif)
+![image gif-omg](assets/gif/easy.gif)
 
 
-<a href="react-readme/react-native-1.md">Ecrivons notre App</a>
+<a href="react-readme/react-native-1.md">Écrivons notre App</a>
 
 
 
