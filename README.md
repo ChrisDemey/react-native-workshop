@@ -55,16 +55,19 @@ $ expo init AppJeux
 ```
 
 Dans le terminal, vous devriez avoir un message vous demandant de choisir le template que vous allez utiliser.
+
 ![image expo-init-blank](assets/img/expo-init-blank.png)
 
 Appuyez sur 'Enter' une première fois et ensuite, on vous demande de réécrire le nom de l'App. Réécrivez le et appuyez à nouveau sur 'Enter'.
 
 Une fois les différentes librairies JavaScript installées, vous verrez apparaître ce message : 
+
 ![image project-ready](assets/img/project-ready.png)
 
 Il suffit maintenant de changer de dossier via la commande 'cd' et lancer l'App avec 'npm start'
 
 Nous voilà prêt à coder notre App. Si tout le monde est encore OP, on se motive et on rentre dans le vif du sujet.
+
 ![image gif-omg](assets/gif/easy.gif)
 
 
