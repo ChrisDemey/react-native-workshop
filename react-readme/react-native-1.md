@@ -31,4 +31,4 @@ Maintenant que tout est prêt, ouvrez le dossier de votre App dans l'explorer de
 
 **App.js** sera votre 'index.html' :wink: :+1:
 
-<a href="/react-native-2.md">Bon, on va coder oui ou non ?</a>
+<a href="./react-native-2.md">Bon, on va coder oui ou non ?</a>
