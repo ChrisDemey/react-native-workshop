@@ -25,7 +25,7 @@ class Search extends React.Component {
   render() {
     return (
       <View style={styles.main_container}>
-        <TextInput style={styles.textinput} placeholder='Titre du jeu'/>
+        <TextInput style={styles.textinput} placeholder='Titre du film'/>
         <Button title='Rechercher' onPress={() => {}}/>
       </View>
     )
@@ -68,7 +68,7 @@ Et maintenant, on ajoute une *FlatList* dans notre component custom Search :
 render() {
     return (
       <View style={styles.main_container}>
-        <TextInput style={styles.textinput} placeholder='Titre du film'/>
+        <TextInput style={styles.textinput} placeholder='Titre du jeu'/>
         <Button title='Rechercher' onPress={() => {}}/>
         {/* Ici j'ai simplement repris l'exemple sur la documentation de la FlatList */}
         <FlatList
@@ -80,8 +80,8 @@ render() {
 }
 ```  
 
-Une FlatList doit obligatoirement implémenter deux propriétés :
+Une *FlatList* doit obligatoirement implémenter deux propriétés :
 
-    data : qui correspond aux données affichées dans la liste. Ici, on renseignera nos films ;
+- data : qui correspond aux données affichées dans la liste.
+-renderItem : qui correspond au rendu (template) des données de la liste.  
 
-    renderItem : qui correspond au rendu des données de la liste. Ici, on définira un template pour afficher nos films.

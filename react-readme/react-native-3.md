@@ -8,7 +8,7 @@ On attaque directement avec le *Search.js* dans lequel on va rajouter du style a
 render() {
     return (
         <View style={{ marginTop: 20 }}>
-            <TextInput style={{ marginLeft: 5, marginRight: 5, height: 50, borderColor: '#000000', borderWidth: 1, paddingLeft: 5 }} placeholder='Titre du jeu'/>
+            <TextInput style={{ marginLeft: 5, marginRight: 5, height: 50, borderColor: '#000000', borderWidth: 1, paddingLeft: 5 }} placeholder='Titre du film'/>
             <Button title='Rechercher' onPress={() => {}}/>
         </View>
     )
@@ -62,7 +62,7 @@ Alors là, deux solutions :
 - On crée un nouveau style de la même manière que précédemment. Par exemple, on crée un *textinput2*. 
 - On fait un mix de notre premier style et on rajoute un autre style directement dans le *component* comme ceci :  
 ```javascript
-<TextInput style={[styles.textinput, { marginBottom: 10 }]} placeholder='Titre du jeu'/>
+<TextInput style={[styles.textinput, { marginBottom: 10 }]} placeholder='Titre du film'/>
 ```  
 
 ## StyleSheet

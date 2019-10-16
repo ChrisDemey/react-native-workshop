@@ -62,7 +62,10 @@ Appuyez sur 'Enter' une première fois et ensuite, on vous demande de réécrire
 
 Une fois les différentes librairies JavaScript installées, vous verrez apparaître ce message : 
 
-![image project-ready](assets/img/project-ready.png)
+    To get started, you can type:
+
+    cd AppFilm
+    npm start
 
 Il suffit maintenant de changer de dossier via la commande '**cd**' et lancer l'App avec '**npm start**'
 

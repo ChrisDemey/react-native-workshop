@@ -17,7 +17,6 @@ A la racine du projet, nous allons créer un dossier *Components* et un fichier 
 Dans *Search.js*, nous allons écrire ce bout de code :  
 
 ```javascript
-{
 // Components/Search.js
 import React from 'react'
 import { View, TextInput, Button } from 'react-native'
@@ -29,7 +28,7 @@ class Search extends React.Component {
         )
     }
 }
-}
+
 ```  
 
 Comme vous pouvez le constater, la deuxième ligne *import* est grisée. Pourquoi ? Car nos components ne sont pas encore définis dans notre *render*. Dans notre *return*, entre parenthèses, il faut ajouter : 
@@ -37,7 +36,7 @@ Comme vous pouvez le constater, la deuxième ligne *import* est grisée. Pourquo
 ```javascript
 // Components/Search.js
       <View>
-        <TextInput placeholder='Titre du jeu'/>
+        <TextInput placeholder='Titre du film'/>
         <Button title='Rechercher' onPress={() => {}}/>
       </View>
 ```
@@ -70,7 +69,7 @@ Vous devriez avoir ceci comme rendu :
 
 ```javascript
 <View>
-    <TextInput placeholder="Titre du jeu"/>
+    <TextInput placeholder="Titre du film"/>
     <Button title="Rechercher" onPress={() => {}}/>
 </View>
 ```  
@@ -79,7 +78,7 @@ Vous devriez avoir ceci comme rendu :
 
 ```javascript
 React.createElement(View, {},
-  	React.createElement(TextInput, {placeholder: "Titre du jeu"}),
+  	React.createElement(TextInput, {placeholder: "Titre du film"}),
     React.createElement(Button, {title: "Rechercher", onPress: () => {}})
 )
 ```  
