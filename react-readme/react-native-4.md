@@ -82,6 +82,6 @@ render() {
 
 Une *FlatList* doit obligatoirement implémenter deux propriétés :
 
-- data : qui correspond aux données affichées dans la liste.
+- data : qui correspond aux données affichées dans la liste.  
 -renderItem : qui correspond au rendu (template) des données de la liste.  
 
