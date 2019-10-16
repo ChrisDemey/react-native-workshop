@@ -11,7 +11,7 @@ La première version de React Native est sortie en 2015.
 Les principes de fonctionnement de React Native sont pratiquement identiques à ceux de React. La différence est qu'il s'exécute en tâche de fond et interprète le code JavaScript directement sur le terminal.
 
 ### Ce que nous allons réaliser
-Grâce à ce Workshop nous allons réaliser une application permettant de rechercher des jeux-vidéos depuis une API.
+Grâce à ce Workshop nous allons réaliser une application permettant de rechercher des films depuis une API.
 
 ## Pré-requis
 Avant d'installer React Native, nous aurons besoin de <a href="https://nodejs.org/en/download/">Node.js</a> 
