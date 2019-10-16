@@ -34,11 +34,23 @@ Si on continue comme ça, on va vite rendre notre code **illisible**, et ce n'es
 
 ## Externaliser ses styles
 Pour externaliser les styles, il suffit de créer une constante **styles** en bas de notre fichier Javascript dans *Search.js*. On reprend donc les styles précédents et on les place dans notre constante. Ce qui donne ceci :  
-
-![image const styles](../assets/img/styles-changes.png)  
+```javascript
+const styles = {
+  textinput: {
+    marginLeft: 5,
+    marginRight: 5,
+    height: 50,
+    borderColor: '#000000',
+    borderWidth: 1,
+    paddingLeft: 5
+  }
+}
+```
 
 Et les styles dans le TextInput on en fait quoi ? On les supprime et on écrit : 
 ```javascript
 <TextInput style={styles.textinput} placeholder='Titre du jeu'/>
 ```
-Simple, efficace.
+Simple, efficace. Voilà le résultat final :  
+
+![image const styles](../assets/img/styles-changes.png) 
