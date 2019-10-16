@@ -28,8 +28,17 @@ Vous pouvez retrouver la liste des styles pour les components React Native sur <
 
 ![image yes but no gif](../assets/gif/yes-but-no.gif)
 
-C'est sympa non ? Ben en fait, non !  
+C'est sympa, non ? Ben en fait, non !  
 
 Si on continue comme ça, on va vite rendre notre code **illisible**, et ce n'est pas notre but ! Il faut donc... 
 
 ## Externaliser ses styles
+Pour externaliser les styles, il suffit de créer une constante **styles** en bas de notre fichier Javascript dans *Search.js*. On reprend donc les styles précédents et on les place dans notre constante. Ce qui donne ceci :  
+
+![image const styles](../assets/img/styles-changes.png)  
+
+Et les styles dans le TextInput on en fait quoi ? On les supprime et on écrit : 
+```javascript
+<TextInput style={styles.textinput} placeholder='Titre du jeu'/>
+```
+Simple, efficace.
