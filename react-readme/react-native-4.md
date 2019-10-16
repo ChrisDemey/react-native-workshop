@@ -68,7 +68,7 @@ Et maintenant, on ajoute une *FlatList* dans notre component custom Search :
 render() {
     return (
       <View style={styles.main_container}>
-        <TextInput style={styles.textinput} placeholder='Titre du jeu'/>
+        <TextInput style={styles.textinput} placeholder='Titre du film'/>
         <Button title='Rechercher' onPress={() => {}}/>
         {/* Ici j'ai simplement repris l'exemple sur la documentation de la FlatList */}
         <FlatList

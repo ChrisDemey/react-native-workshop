@@ -49,7 +49,7 @@ const styles = {
 
 Et les styles dans le TextInput on en fait quoi ? On les supprime et on écrit : 
 ```javascript
-<TextInput style={styles.textinput} placeholder='Titre du jeu'/>
+<TextInput style={styles.textinput} placeholder='Titre du film'/>
 ```
 Simple, efficace. Voilà le résultat final :  
 
