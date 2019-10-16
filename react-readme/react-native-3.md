@@ -74,7 +74,7 @@ Vous suivez encore ? Si oui, je vous présente **StyleSheet**.
 - Avec StyleSheet, votre style est associé à un identifiant. Chaque fois que votre application appelle votre style, StyleSheet utilise l'identifiant pour récupérer l'objet avec votre style.  
 
 Ce n'est pas obligatoire de l'utiliser mais c'est toujours mieux. Donc, première étape, on l'importe.  
-On se rend donc dans *Search.js*, *import* et on la rajoute : 
+On se rend donc dans *Search.js*, *import* et on l'ajoute : 
 ```javascript
 // Components/Search.js
 
