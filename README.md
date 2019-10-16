@@ -51,7 +51,7 @@ $ cd \chemin_de_votre_dossier\ReactNative
 Une fois dans votre dossier, il suffit de créer votre CRNA avec le nom de votre projet. 
 
 ```
-$ expo init AppJeux
+$ expo init AppFilm
 ```
 
 Dans le terminal, vous devriez avoir un message vous demandant de choisir le template que vous allez utiliser.
