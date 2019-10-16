@@ -53,4 +53,51 @@ Et les styles dans le TextInput on en fait quoi ? On les supprime et on écrit :
 ```
 Simple, efficace. Voilà le résultat final :  
 
-![image const styles](../assets/img/styles-changes.png) 
+![image const styles](../assets/img/styles-changes.png)  
+
+*En plus d'avoir un code lisible, on peut, tout comme en CSS, réutiliser le style sur un autre component.*  
+
+## Et si on veut créer d'autres styles ?
+Alors là, deux solutions : 
+- On crée un nouveau style de la même manière que précédemment. Par exemple, on crée un *textinput2*. 
+- On fait un mix de notre premier style et on rajoute un autre style directement dans le *component* comme ceci :  
+```javascript
+<TextInput style={[styles.textinput, { marginBottom: 10 }]} placeholder='Titre du jeu'/>
+```  
+
+## StyleSheet
+Vous suivez encore ? Si oui, je vous présente **StyleSheet**.  
+
+*StyleSheet* est une API React Native permettant d'augmenter les performances des styles de votre application.  
+
+- Sans StyleSheet, à chaque fois que votre application appelle un style, un nouvel objet avec votre style est créé. 
+- Avec StyleSheet, votre style est associé à un identifiant. Chaque fois que votre application appelle votre style, StyleSheet utilise l'identifiant pour récupérer l'objet avec votre style.  
+
+Ce n'est pas obligatoire de l'utiliser mais c'est toujours mieux. Donc, première étape, on l'importe.  
+On se rend donc dans *Search.js*, *import* et on la rajoute : 
+```javascript
+// Components/Search.js
+
+import { StyleSheet, View, TextInput, Button } from 'react-native'
+```  
+Ensuite, toujours dans *Search.js*, on modifie notre *const styles* comme ceci :  
+```javascript
+// Components/Search.js
+
+const styles = StyleSheet.create({
+  textinput: {
+    marginLeft: 5,
+    marginRight: 5,
+    height: 50,
+    borderColor: '#000000',
+    borderWidth: 1,
+    paddingLeft: 5
+  }
+})
+```  
+
+Nous voilà avec une App plus performante. Là, on ne verra pas vraiment la différence mais pour de grosses applications, ce sera visible. A vous de modifier vos styles afin d'y voir plus clair.  
+
+![image ron-what gif](../assets/gif/ron-swanson.gif)  
+
+<a href="./react-native-4.md">Allons voir les Props</a>
