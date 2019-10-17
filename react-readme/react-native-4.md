@@ -83,6 +83,8 @@ render() {
 Une *FlatList* doit obligatoirement implémenter deux propriétés :
 
 - data : qui correspond aux données affichées dans la liste.  
+- renderItem : qui correspond au rendu (template) des données de la liste.  
 
--renderItem : qui correspond au rendu (template) des données de la liste.  
+*a* et *b* seront les données affichées à l'écran. Ici elles font office d'exemple. Nous allons devoir récupérer les informations de notre API et les insérer à la place.  
 
+<a href="./react-native-5.md">Voyons l'API</a>
