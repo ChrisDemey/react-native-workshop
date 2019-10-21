@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     fontSize: 14
   }
-})
+}) 
 
 export default FilmItem
 ```  
